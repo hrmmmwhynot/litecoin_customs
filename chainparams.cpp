@@ -142,7 +142,7 @@ public:
         //vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_main, pnSeed6_main + ARRAYLEN(pnSeed6_main));
 	vFixedSeeds.clear();
         vSeeds.clear();
-	__MAINSEEDS__
+__MAINSEEDS__
 
 
         fDefaultConsistencyChecks = false;
@@ -234,7 +234,7 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
         // nodes with support for servicebits filtering should be at the top
-	__TESTNETSEEDS__
+__TESTNETSEEDS__
         //vSeeds.emplace_back("testnet-seed.litecointools.com", true);
         //vSeeds.emplace_back("seed-b.litecoin.loshan.co.uk", true);
         //vSeeds.emplace_back("dnsseed-testnet.thrasher.io", true);
@@ -317,7 +317,7 @@ public:
 
         vFixedSeeds.clear(); //!< Regtest mode doesn't have any fixed seeds.
         vSeeds.clear();      //!< Regtest mode doesn't have any DNS seeds.
-	__REGTESTSEEDS__
+__REGTESTSEEDS__
 
         fDefaultConsistencyChecks = true;
         fRequireStandard = false;
